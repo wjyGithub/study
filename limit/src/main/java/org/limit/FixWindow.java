@@ -1,4 +1,4 @@
-package com.springboot.first.windows;
+package org.limit;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;

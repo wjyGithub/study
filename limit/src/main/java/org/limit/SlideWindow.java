@@ -1,4 +1,4 @@
-package com.springboot.first.windows;
+package org.limit;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -72,6 +72,7 @@ public class SlideWindow {
         return timeSegmentCache;
     }
 
+    // 测试
     public static void main(String[] args) {
         SlideWindow slideWindow = new SlideWindow(4,500);
         for(int i=0; i<2000; i++) {
