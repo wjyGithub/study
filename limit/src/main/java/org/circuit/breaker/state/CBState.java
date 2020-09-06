@@ -17,6 +17,8 @@ public interface CBState {
 
     /**
      * 检查以及校验当前状态是否需要扭转
+     * @param cb AbstractCircuitBreaker实际是作为一个局部全局变量(局部: 只对于状态类；全局: 所有的状态类共享的),
+     *           通过cb也是当前的状态，因此，状态类需要更改当前状态
      */
     void checkAndSwitchState(AbstractCircuitBreaker cb);
 
