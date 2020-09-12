@@ -1,4 +1,4 @@
-package org.circuit.breaker.state;
+package org.cb.state;
 
 import org.circuit.breaker.cb.AbstractCircuitBreaker;
 

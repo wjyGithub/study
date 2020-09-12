@@ -1,6 +1,7 @@
-package org.circuit.breaker.state;
+package org.cb.state;
 
-import org.circuit.breaker.cb.AbstractCircuitBreaker;
+
+import org.cb.AbstractCircuitBreaker;
 
 /**
  * 熔断器状态（https://github.com/hirudy/circuitBreaker)

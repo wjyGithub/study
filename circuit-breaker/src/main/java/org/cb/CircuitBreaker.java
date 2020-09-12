@@ -1,4 +1,4 @@
-package org.circuit.breaker.cb;
+package org.cb;
 
 /**
  * 熔断器接口（https://github.com/hirudy/circuitBreaker)

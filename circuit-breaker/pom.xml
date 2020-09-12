@@ -2,27 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.example</groupId>
-    <artifactId>limit</artifactId>
-    <description>限流相关的算法</description>
-    <packaging>jar</packaging>
-
     <parent>
         <artifactId>study</artifactId>
         <groupId>org.example</groupId>
         <version>0.0.1</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>29.0-jre</version>
-        </dependency>
-    </dependencies>
+    <artifactId>circuit-breaker</artifactId>
 
     <build>
         <plugins>
