@@ -1,8 +1,9 @@
-package org.circuit.breaker.state;
+package org.cb.state;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.circuit.breaker.cb.AbstractCircuitBreaker;
+import org.cb.AbstractCircuitBreaker;
+
 
 /**
  * 关闭状态（https://github.com/hirudy/circuitBreaker)

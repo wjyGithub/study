@@ -1,10 +1,8 @@
-package org.circuit.breaker;
+package org.cb;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
-import org.circuit.breaker.cb.CircuitBreaker;
-import org.circuit.breaker.cb.LocalCircuitBreaker;
 
 /**
  * @author wjy5@meitu.com

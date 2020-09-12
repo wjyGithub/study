@@ -1,6 +1,7 @@
-package org.circuit.breaker.cb;
+package org.cb;
 
-import org.circuit.breaker.state.CloseCBState;
+
+import org.cb.state.CloseCBState;
 
 /**
  * 本地熔断器(把它当成了工厂)（https://github.com/hirudy/circuitBreaker)
